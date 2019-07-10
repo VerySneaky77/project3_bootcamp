@@ -1,79 +1,12 @@
 # Restaurant Mod App
 
-## Developer Note
+## Overview
 
-To run a test build, open a terminal instance in the root directory and run 'nodemon server.js --ignore client/*'. Nodemon appears to be having buggy behavior at the moment, either constantly attempting to start itself or ignoring the running the client altogether.
+A general viewing app for use by food establishments. End goal will be to develop a working Menu component. Long-term goal will be to provide order interactivity between clients and the establishment's database of menu items.
 
-Once nodemon is running, open a terminal instance inside the client directory and run 'npm start'. Keep both terminals open during your testing. You should now be able to run tests.
+## Team
+Bryce: React front-end interactivity for the Home consumer-side portion of the app. The consumer-side app is denoted in the web address without any text following the index route (denoted as "/" within the code).
 
+Carlos: React front-end for Menu and Order consumer-side portion of the app. Creation and testing of back-end API routing for serving React pages to clients/visitors.
 
-# React App Information
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Isidro: React front-end for Home and Menu administrator/controller-side portion of the app. Help develop Menu database schema for Mongo database controlled via Mongoose. Administrator-side of the app is denoted with "admin" in the web address.
